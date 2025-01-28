@@ -121,6 +121,7 @@ ab -n 100 -c 10 http://localhost:8080/
 ## Contributors
 
 - [Sven van Hasselt](https://github.com/svenvanhasselt)
+- [Adri Rommers](https://github.com/arommers)
 
 ---
 
