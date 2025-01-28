@@ -83,7 +83,6 @@ The server uses a `.conf` file for settings. There is an example you can use loc
   - `root`: Directory for files.
   - `index`: Default file to serve.
   - `cgi`: Directory for CGI scripts.
-  - `extension`: File extension for CGI scripts.
 - `error_page`: Custom pages for specific errors.
 - `allowed_methods`: Specifies HTTP methods allowed for this location.
 
