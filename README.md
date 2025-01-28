@@ -39,8 +39,8 @@
 ### How to Build
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/42-webserv.git
-   cd 42-webserv
+   git clone git@github.com:svenvanhasselt/Webserve.git
+   cd Webserve
    ```
 2. Build the project:
    ```bash
@@ -64,27 +64,7 @@ To stop the server, press `Ctrl+C`.
 ---
 
 ## Configuration
-The server uses a `.conf` file for settings. Here’s an example:
-
-```conf
-server {
-    listen 8080;
-    server_name localhost;
-
-    location / {
-        root /path/to/root;
-        index index.html;
-    }
-
-    location /cgi-bin/ {
-        cgi /path/to/cgi-bin/;
-        extension .py;
-    }
-
-    error_page 404 /404.html;
-    error_page 500 /500.html;
-}
-```
+The server uses a `.conf` file for settings. There is an example config file at config/sdf.conf you can use.
 
 ### Key Settings
 - `listen`: Port number for the server to listen on.
